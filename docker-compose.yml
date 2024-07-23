@@ -1,0 +1,9 @@
+version: "2.1"
+services:
+  dynuiuc:
+    image: ghcr.io/go2engle/dynuiuc:1.1
+    container_name: dynuiuc
+    environment:
+      - USERNAME=liorgadol
+      - PASSWORD=skqsz7913
+    restart: unless-stopped
